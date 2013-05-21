@@ -1,0 +1,874 @@
+/*
+Theme Name: TF Importação
+Theme URI: http://www.tfimportacao.com.br
+Description: Site criado por Mweb
+Author: Marcelo Almeida
+Version: 1.O
+
+Site criado por Mweb
+*/
+* {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	outline: none;
+}
+.acessibilidade {
+	width:1px;
+	height:1px;
+	display:block;
+	text-indent:-999999px;
+	overflow:hidden;
+	position:absolute;
+}
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#535353;
+}
+a, h1, h2, h3, h4{
+	background-position:left top;
+	background-repeat:no-repeat;
+	display:block;
+	text-indent:-99999px;
+	overflow:hidden;
+}
+p{
+	padding-bottom:22px;
+	line-height:18px;
+}
+a.link{
+	text-decoration: none;
+	text-indent: 0;
+	color: #535353;
+	display: inline;
+}
+a:hover, a.ativo{
+	text-decoration: underline;
+	background-position:left bottom;
+}
+img{
+	border: none;
+}
+/************************ HOME ***************************/
+.home{
+	background: url(img/repeatHome.jpg) top center repeat-y;
+}
+.bgHome{
+	width: 100%;
+	display: block;
+	background: url(img/bgHome.jpg) top center no-repeat;
+}
+#main{
+	width: 956px;
+	display: table;
+	*display: block;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+}
+#tophome{
+	width: 956px;
+	height: 178px;
+	display: block;
+	float: left;
+	position: relative;
+}
+#tophome h1{
+	width: 145px;
+	height: 124px;
+	float: left;
+	padding-top: 13px;
+}
+#tophome h1 a{
+	width: 142px;
+	height: 124px;
+	background-image: url(img/tf_importacao.png);
+}
+#tophome p.logo{
+	width: 145px;
+	height: 124px;
+	float: left;
+	padding: 13px 0 0 0;
+	text-indent: -9999px;
+	overflow: hidden/;
+}
+#tophome p.logo a{
+	width: 142px;
+	height: 124px;
+	text-indent: 0;
+}
+#tophome .msn{
+	width: 268px;
+	height: 45px;
+	position: absolute;
+	left: 352px;
+	top: 5px;
+}
+#tophome .msn a{
+	width: 268px;
+	height: 45px;
+	background-image: url(img/msn.jpg);
+}
+
+#tophome .skype{
+	width: 34px;
+	height: 45px;
+	position: absolute;
+	left: 636px;
+	top: 5px;
+}
+#tophome .skype a{
+	width: 34px;
+	height: 45px;
+	background-image: url(img/skype.jpg);
+}
+#tophome ul{
+	width: 457px;
+	height: 61px;
+	display: block;
+	float: left;
+	margin-top: 85px;
+}
+#tophome ul li{
+	height: 61px;
+	display: block;
+	float: left;
+}
+#tophome ul li{
+	height: 61px;
+	display: block;
+	float: left;
+}
+#tophome ul li a{
+	width: 457px;
+	height: 61px;
+	display: block;
+	position: relative;
+	background-image: url(img/menu.png);
+	cursor: pointer;
+}
+#tophome ul li a.btHome{
+	width: 103px;
+	background-position: 0 0;
+}
+#tophome ul li a:hover.btHome, #tophome ul li a.ativo1 {
+	background-position: 0 -61px;
+}
+#tophome ul li a.btEmpr{
+	width: 107px;
+	background-position: -103px 0;
+}
+#tophome ul li a:hover.btEmpr, #tophome ul li a.ativo2 {
+	background-position: -103px -61px;
+}
+#tophome ul li a.btProd{
+	width: 119px;
+	background-position: -210px 0;
+}
+#tophome ul li a:hover.btProd, #tophome ul li a.ativo3 {
+	background-position: -210px -61px;
+}
+#tophome ul li a.btCont{
+	width: 128px;
+	background-position: -329px 0;
+}
+#tophome ul li a:hover.btCont, #tophome ul li a.ativo4 {
+	background-position: -329px -61px;
+}
+#tophome p.fone{
+	width: 135px;
+	height: 23px;
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 2px 0 0 135px;
+	background: url(img/fone.gif) 0 0 no-repeat;
+}
+#content{
+	width: 956px;
+	display: block;
+	float: left;
+}
+#homeLeft{
+	width: 450px;
+	height: 460px;
+	display: block;
+	float: left;
+}
+#empresa{
+	width: 327px;
+	height: 188px;
+	display: block;
+	padding: 20px 62px 0 61px;
+	background: url(img/bgEmpr.jpg) 10px 0 no-repeat;
+}
+#empresa h2{
+	height: 75px;
+	margin-left: 35px;
+	background-image: url(img/hEmprH.gif);
+}
+#prods{
+	width: 430px;
+	display: block;
+	padding-left: 20px;
+}
+#prods h2{
+	height: 34px;
+	background-image: url(img/hprodH.gif);
+}
+#prods p{
+	width: 327px;
+}
+#prods ul{
+	width: 368px;
+	height: 125px;
+	display: block;
+}
+#prods ul li{
+	width: 155px;
+	height: 56px;
+	display: block;
+	float: left;
+}
+#prods ul li.espLeft{
+	padding-left: 55px;
+}
+#prods ul li a{
+	width: 151px;
+	height: 47px;
+}
+#prods ul li a.btIndu{
+	background-image: url(img/btIndu.jpg);
+}
+#prods ul li a.btBobi{
+	background-image: url(img/btBobi.jpg);
+}
+#prods ul li a.btAces{
+	background-image: url(img/btAces.jpg);
+}
+#prods ul li a.btMaqu{
+	background-image: url(img/btMaqu.jpg);
+}
+#homeRight{
+	width: 505px;
+	height: 460px;
+	display: block;
+	float: left;
+}
+#destCenter{
+	width: 505px;
+	height: 330px;
+	display: block;
+	float: left;
+	position: relative;
+}
+#destCenter div{
+	width:505px;
+	height:330px;
+	display: block;
+    opacity:0.5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index:8;
+}
+#destCenter div.active{
+    z-index:10;
+    opacity:1.0;
+}	
+#homeRight h3{
+	width: 213px;
+	height: 47px;
+	padding-left: 55px;
+}
+#homeRight h3 a{
+	width: 213px;
+	height: 47px;
+	background-image: url(img/btEntr.gif);
+}
+#marcas{
+	width: 956px;
+	height: 104px;
+	display: block;
+	float: left;
+}
+#marcas img{
+	padding: 0 0 20px 40px;
+}
+#marcas p{
+	font-size: 11px;
+	letter-spacing: -1px;
+}
+/************************ INTERNAS ***************************/
+.internas{
+	background-color: #d9d9d9;
+}
+.bgInt{
+	width: 100%;
+	display: table;
+	background: url(img/bgInternas.jpg) top center no-repeat;
+}
+#contLeft{
+	width: 470px;
+	display: table;
+	float: left;
+	padding: 20px 30px 0 0;
+}
+#contLeft h1{
+	height: 38px;
+	background-image: url(img/hEmpr.png);
+}
+#contLeft h2{
+	height: 30px;
+	background-image: url(img/h2Empr.png);
+}
+#contLeft p.btConta{
+	width: 240px;
+	height: 54px;
+	display: block;
+	padding-top: 30px;
+}
+#contLeft p.btConta a{
+	width: 240px;
+	height: 54px;
+	background-image: url(img/btEntre.jpg);
+}
+#contRight{
+	width: 400px;
+	height: 280px;
+	display: block;
+	float: left;
+	padding-top: 275px;
+	background: url(img/bgEmpProd.jpg) 0 0 no-repeat;
+}
+#contRight ul.imagens{
+	width: 340px;
+	height: 80px;
+	display: block;
+	padding-left: 40px;
+}
+#contRight ul.imagens li{
+	width: 165px;
+	height: 40px;
+	float: left;
+}
+#contRight ul.imagens li.left{
+	width: 135px;
+	padding-left: 30px;
+}
+#contRight h3{
+	height: 40px;
+	margin-left: 40px;
+	background-image: url(img/hProdE.jpg);
+}
+#contRight ul.listaProd{
+	width: 328px;
+	height: 80px;
+	display: block;
+	padding-left: 40px;
+}
+#contRight ul.listaProd li{
+	width: 164px;
+	height: 40px;
+	float: left;
+}
+#contRight ul.listaProd li a{
+	width: 132px;
+	height: 23px;
+}
+#contRight ul.listaProd li a.btInduzi{
+	background-image: url(img/btInduzi.png);
+}
+#contRight ul.listaProd li a.btBobina{
+	background-image: url(img/btBobina.png);
+}
+#contRight ul.listaProd li a.btAcesso{
+	background-image: url(img/btAcesso.png);
+}
+#contRight ul.listaProd li a.btMaquina{
+	background-image: url(img/btMaquina.png);
+}
+#content h1.hProd{
+	height: 40px;
+	padding-top: 22px;
+	background: url(img/hProd.png) 0 22px no-repeat;
+}
+#content h1.hCont{
+	height: 35px;
+	padding-top: 22px;
+	background: url(img/hCont.png) 0 22px no-repeat;
+}
+#content h2.h2Cont{
+	height: 35px;
+	background: url(img/hFale.png) 0 0 no-repeat;
+}
+#content p.hProd{
+	height: 40px;
+	text-indent: -9999px;
+	overflow: hidden;
+	padding: 22px 0 0 0;
+	background: url(img/hProd.png) 0 22px no-repeat;
+}
+#contProd{
+	width: 750px;
+	display: block;
+	float: left;
+	position: relative;
+}
+#breadcrumb{
+	width: 750px;
+	height: 30px;
+	display: block;
+}
+#breadcrumb div{
+	float: left;
+	margin-right: 5px;
+	color: #aa3d3f;
+}
+#breadcrumb div a{
+	color: #aa3d3f;
+}
+
+#contProd .btMaquinas{
+	width: 467px;
+	height: 78px;
+}
+#contProd .btMaquinas li{
+	height: 78px;
+	float: left;
+}
+#contProd .btMaquinas li a{
+	height: 39px;
+	background-image: url(img/btMaquinas.gif);
+}
+#contProd .btMaquinas li a.btAce{
+	width: 152px;
+	background-position: 0 0;
+}
+#contProd .btMaquinas li a:hover.btAce{
+	background-position: 0 -39px;
+}
+#contProd .btMaquinas li a.btDong{
+	width: 167px;
+	background-position: -152px 0;
+}
+#contProd .btMaquinas li a:hover.btDong{
+	background-position: -152px -39px;
+}
+#contProd .btMaquinas li a.btOutr{
+	width: 148px;
+	background-position: -319px 0;
+}
+#contProd .btMaquinas li a:hover.btOutr{
+	background-position: -319px -39px;
+}
+#contProd .txtMenor{
+	padding-bottom: 10px;
+}
+#contProd h2.hQual{
+	height: 25px;
+	background-image: url(img/hQual.png);
+}
+#contProd ul.listProds{
+	width: 616px;
+	height: 298px;
+	display: block;
+}
+#contProd ul.listProds li{
+	height: 47px;
+	display: block;
+	float: left;
+}
+#contProd ul.listProds li a{
+	height: 47px;
+	display: block;
+	position: relative;
+	background-image: url(img/menu2.jpg);
+	cursor: pointer;
+}
+#contProd ul.listProds li a.induzido{
+	width: 154px;
+	background-position: 0 0;
+}
+#contProd ul.listProds li a:hover.induzido{
+	background-position: 0 -47px;
+}
+#contProd ul.listProds li a.bobina{
+	width: 154px;
+	background-position: -154px 0;
+}
+#contProd ul.listProds li a:hover.bobina{
+	background-position: -154px -47px;
+}
+#contProd ul.listProds li a.acessorio{
+	width: 155px;
+	background-position: -308px 0;
+}
+#contProd ul.listProds li a:hover.acessorio{
+	background-position: -308px -47px;
+}
+#contProd ul.listProds li a.maquina{
+	width: 153px;
+	background-position: -463px 0;
+}
+#contProd ul.listProds li a:hover.maquina{
+	background-position: -463px -47px;
+}
+#contProd h1.hPdr{
+	text-indent: 0;
+	color: #aa3d3f;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+#contProd p.btVoltar{
+	width: 52px;
+	height: 12px;
+	display: block;
+	position: absolute;
+	left: 700px;
+	top: 0px;
+}
+#contProd p.btVoltar a{
+	width: 52px;
+	height: 12px;
+	background-image: url(img/btVoltar.png);
+}
+#contProd ul.listMarcas{
+	width: 549px;
+	height: 298px;
+	display: block;
+}
+#contProd ul.listMarcas li{
+	height: 43px;
+	display: block;
+	float: left;
+}
+#contProd ul.listMarcas li a{
+	height: 43px;
+	display: block;
+	position: relative;
+	background-image: url(img/marcas.png);
+	cursor: pointer;
+}
+#contProd ul.listMarcas li a.bt01{
+	width: 115px;
+	background-position: 0 0;
+}
+#contProd ul.listMarcas li a:hover.bt01{
+	background-position: 0 -43px;
+}
+#contProd ul.listMarcas li a.bt02{
+	width: 146px;
+	background-position: -115px 0;
+}
+#contProd ul.listMarcas li a:hover.bt02{
+	background-position: -115px -43px;
+}
+#contProd ul.listMarcas li a.bt03{
+	width: 147px;
+	background-position: -261px 0;
+}
+#contProd ul.listMarcas li a:hover.bt03{
+	background-position: -261px -43px;
+}
+#contProd ul.listMarcas li a.bt04{
+	width: 141px;
+	background-position: -408px 0;
+}
+#contProd ul.listMarcas li a:hover.bt04{
+	background-position: -408px -43px;
+}
+#contProd ul.codigos{
+	width: 725px;
+	display: block;
+	float: left;
+	padding: 0 0 80px 15px;
+}
+#contProd ul.codigos1{
+	width: 725px;
+	display: block;
+	float: left;
+	padding: 0 0 15px 15px;
+}
+#contProd ul.codigos li, #contProd ul.codigos1 li{
+	width: 207px;
+	height: 26px;
+	display: block;
+	float: left;
+	background: url(img/boxprod.png) 0 0 no-repeat;
+	padding: 5px 0 0 13px;
+	margin-right: 5px;
+}
+#contProd ul.codigos li a, #contProd ul.codigos1 li a{
+	width: 197px;
+	height: 26px;
+	text-indent: 0;
+	color: #aa3d3f;
+	background: url(img/ball.jpg) 0 5px no-repeat;
+	padding-left: 10px;
+	text-decoration: none;
+}
+#contProd ul.codigos li a:hover, #contProd ul.codigos1 li a:hover{
+	text-decoration: underline;
+}
+#content #menu{
+	width: 187px;
+	display: table;
+	float: left;
+	padding-bottom: 15px;
+	background: url(img/bottom.jpg) bottom left no-repeat;
+}
+#content #menu nav{
+	width: 187px;
+	display: table;
+	background: url(img/repeat.jpg) left 0 repeat-y;
+}
+#content #menu nav ul{
+	width: 187px;
+	display: table;
+	padding-top: 19px;
+	background: url(img/top.jpg) top left no-repeat;
+}
+#content #menu nav ul li{
+	width: 160px;
+	display: table;
+	padding: 0 0 6px 27px;
+	background: url(img/ball.jpg) 16px 5px no-repeat;
+}
+#content #menu nav ul li a{
+	text-indent: 0;
+	color: #aa3d3f;
+	text-decoration: none;
+	font-weight: bold;
+}
+#content #menu nav ul li a:hover{
+	text-decoration: underline;
+}
+#content #menu nav ul li ul{
+	width: 130px;
+	display: table;
+	padding: 5px 0 10px 0;
+	background: none;
+}
+#content #menu nav ul li ul li{
+	width: 130px;
+	display: table;
+	padding: 0 0 3px 0;
+	background: none;
+}
+#content #menu nav ul li ul li a{
+	font-weight: normal;
+}
+#content #menu nav a.ativo{
+	text-decoration: underline;
+}
+#content #formulario, #content #formulario ul{
+	width: 478px;
+	display: block;
+	float: left;
+}
+#content #formulario ul li{
+	width: 478px;
+	height: 38px;
+	display: block;
+	padding-top: 7px;
+}
+#content #formulario ul li p{ display:none;}
+#content #formulario ul li label{
+	display: none;
+}
+#content #formulario ul li input{
+	height: 18px;
+	border: none;
+	background-color: transparent;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #535353;
+	font-weight: bold;
+	padding-top: 2px;
+}
+#content #formulario ul li.nome{
+	width: 390px;
+	padding-left: 88px;
+	background: url(img/form/nome.gif) 0 0 no-repeat;
+}
+#content #formulario ul li.nome input{
+	width: 378px;
+}
+#content #formulario ul li.email{
+	width: 378px;
+	padding-left: 100px;
+	background: url(img/form/email.gif) 0 0 no-repeat;
+}
+#content #formulario ul li.email input{
+	width: 366px;
+}
+
+#content #formulario ul li.fone{
+	width: 382px;
+	padding-left: 96px;
+	background: url(img/form/telefone.gif) 0 0 no-repeat;
+}
+#content #formulario ul li.fone input.ddd{
+	width: 40px;
+	margin-right: 25px;
+	text-align: center;
+}
+#content #formulario ul li.fone input.num{
+	width: 110px;
+	text-align: center;
+}
+#content #formulario ul li.msg{
+	width: 353px;
+	height: 93px;
+	padding-left: 125px;
+	background: url(img/form/msg.gif) 0 0 no-repeat;
+}
+#content #formulario ul li.msg textarea{
+	width: 341px;
+	height: 80px;
+	border: none;
+	background-color: transparent;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #535353;
+	font-weight: bold;
+}
+#content #formulario ul li.msg br{display: none;}
+#content #formulario ul li.enviar span{
+	float: left;
+}
+#content #formulario ul li.enviar input{
+	width: 101px;
+	height: 37px;
+	float: right;
+}
+#content #local{
+	width: 428px;
+	height: 450px;
+	float: right;
+}
+#content #local h3{
+	height: 45px;
+	background-image: url(img/hLoca.png);
+}
+#content #local address{
+	font-style: normal;
+	padding-left: 47px;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+#content #local p.mapa{
+	width: 420px;
+	height: 180px;
+	display: block;
+}
+#content #local p.mapa a{
+	width: 420px;
+	height: 165px;
+	background-image: url(img/btMapa.jpg);
+}
+#content #local .foneMail{
+	width: 180px;
+	display: block;
+	float: left;
+}
+#content #local .foneMail h3.hFone{
+	height: 42px;
+	background-image: url(img/hFone.jpg);
+}
+#content #local .foneMail h3.hEmail{
+	height: 42px;
+	background-image: url(img/hEmail.jpg);
+}
+#content #local .foneMail p{
+	padding-left: 44px;
+}
+
+/************************ FOOTER ***************************/
+#main footer{
+	width: 956px;
+	height: 120px;
+	display: block;
+	float: left;
+}
+#main footer #right{
+	width: 500px;
+	height: 60px;
+	display: block;
+	float: right;
+	padding-right: 230px;
+}
+#main footer #right img{
+	padding-left: 325px;
+}
+#main footer #right address{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #9a3537;
+	text-align: right;
+	line-height: 18px;
+}
+#main footer #right address a{
+	color: #9a3537;
+}
+#main footer p.wv3{
+	width: 50px;
+	height: 14px;
+	display: block;
+}
+#main footer p.wv3 a{
+	width: 50px;
+	height: 14px;
+	background-image: url(img/mweb.png);
+}
+.bgRoda{
+	width: 100%;
+	display: block;
+	float: left;
+	background: url(img/bgRoda.jpg) top center no-repeat;
+	height: 110px;
+}
+footer#rodaInt{
+	width: 956px;
+	display: block;
+	margin: 0 auto;
+	padding: 14px 20px 0 20px;
+}
+footer#rodaInt p{
+	padding: 0 0 15px 147px;
+	font-size: 11px;
+	color: #a03d3f;
+}
+footer#rodaInt #right{
+	width: 450px;
+	height: 60px;
+	display: block;
+	float: right;
+	padding-right: 120px;
+}
+footer#rodaInt #right img{
+	padding-left: 275px;
+}
+footer#rodaInt #right address{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #9a3537;
+	text-align: right;
+	line-height: 18px;
+}
+footer#rodaInt #right address a{
+	color: #9a3537;
+}
+footer#rodaInt p.wv3{
+	width: 50px;
+	height: 14px;
+	display: block;
+}
+footer#rodaInt p.wv3 a{
+	width: 50px;
+	height: 14px;
+	background-image: url(img/mweb.png);
+}
